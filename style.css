@@ -1,0 +1,245 @@
+/* 全体 */
+#site-box {
+    width: 1366px;
+}
+
+body{
+    background-color: #EDF3F6;
+    color: #325F78;
+
+}
+
+/* ヘッダー */
+header{
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0;
+    list-style: none;
+  }
+  .menu li {
+    margin: 0 10px;
+    float: left;
+    position: relative;
+    text-align: center;
+  }
+  .menu a {
+    padding: 14px 10px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    width: 180px;
+    color: #325F78;
+  }
+  .menu li span {
+    background: #325F78;
+    border: 1px solid #333;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+    display: none;
+    font-size:14px;
+    color:#EDF3F6;
+    border-radius:10px;
+  }
+
+/* .container-fluid{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: #325F78;
+    padding:10px;
+    border-radius:10px;
+    align-items: center;
+} */
+
+
+
+/* ここからメイン */
+fieldset {
+    border: none;
+}
+.jumbotron{
+    background-color: #A3D8F6;
+    border-style: none;
+    padding: 50px 0;
+}
+
+legend{
+    text-align: center;
+    font-size:50px;
+    color: #EDF3F6;
+    background-color: #325F78;
+    padding: 5px 40px;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+    border: 6px solid #333;
+}
+
+.title{ 
+    position: relative;
+    margin: 10px auto;
+    color:#333;
+}
+.title:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+}
+
+.select1{
+    font-weight: bold;
+    margin: 5px 30px;
+}
+
+.radio {
+	display: none;
+}
+ 
+.radio + .radio_image {
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+	border: 3px #EDF3F6 solid;
+    background-color: #A3D8F6;
+    width: 80px;
+}
+.radio:checked + .radio_image {
+	border: 3px #325F78 solid;
+	background-color: #EDF3F6;
+}
+
+.category_choice{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* .category_choice:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1300px;
+    height: 7px;
+    background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+  } */
+
+.category_name{
+    padding: 5px;
+}
+
+.category_name p{
+    font-size:15px;
+    font-weight:bold;
+    margin: auto;
+    color:#325F78;
+
+}
+
+.upfile{
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 0;
+    background-color: #325F78;
+    color: #EDF3F6;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.cp_iptxt {
+    width: 300px;
+    margin: 0 auto;
+}
+.cp_iptxt input[type='text'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 0;
+}
+.cp_iptxt input[type='text']:focus {
+    outline: none;
+}
+
+
+.cp_iptxt::after {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: -1px;
+    content: '';
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #333;
+}
+/* 
+.imgsize{
+    width: 150px;;
+} */
+
+.toTop {
+    text-decoration: none;
+    background: #325F78;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 150px;
+}
+
+
+.test {
+    display: inline-block;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    /* flex-wrap: wrap; */
+    border: 3px solid #325F78;
+    /* margin-bottom: 20px; */
+    /* border-radius: 15px; */ 
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    /* text-align: center; */
+    /* margin: 20px auto;
+    padding: 10px 0;
+    width: 1000px; */
+} 
+
+/* .test p{
+    padding: 20px;
+    color:#325F78;
+} */
+
+.keikoku{
+    display: flex;
+    align-items: center;
+}
+
